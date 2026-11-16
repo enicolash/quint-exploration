@@ -1,0 +1,23 @@
+@!@!@STARTMSG 2262:0 @!@!@
+Created by Apalache on Tue Nov 17 06:07:55 WIB 2026
+@!@!@ENDMSG 2262 @!@!@
+@!@!@STARTMSG 2110:1 @!@!@
+Invariant is violated.
+@!@!@ENDMSG 2110 @!@!@
+@!@!@STARTMSG 2121:1 @!@!@
+The behavior up to this point is:
+@!@!@ENDMSG 2121 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+1: <Initial predicate>
+/\ saldo = 0
+/\ totalDebit = 0
+/\ totalKredit = 0
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+2: <Next>
+/\ saldo = -20000
+/\ totalDebit = 0
+/\ totalKredit = 20000
+
+@!@!@ENDMSG 2217 @!@!@
